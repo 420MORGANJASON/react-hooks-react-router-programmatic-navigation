@@ -45,7 +45,7 @@ function Navbar({ setIsLoggedIn }) {
       </NavLink>
       <NavLink
         to="/login"
-        exact
+        // exact
         style={linkStyles}
         activeStyle={{
           background: "darkblue",
